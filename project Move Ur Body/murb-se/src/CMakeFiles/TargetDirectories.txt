@@ -1,0 +1,7 @@
+/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/common-lib.dir
+/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/murb-implem-lib.dir
+/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/murb-bin.dir
+/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/test-bin.dir
+/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/test.dir
+/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/edit_cache.dir
+/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/rebuild_cache.dir

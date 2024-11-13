@@ -1,0 +1,18 @@
+Profile auto avec les differentes tailles de chunk (4, 8, 16, 32) avec n allant jusqu'a 2000
+
+16 meilleur chunk
+dynamic meilleur profile
+
+v1 auto) python2 ./scripts/benchmark.py --im cpu+naive cpu+optim cpu+simd cpu+omp gpu+ocl hetero --arch jetson --min 500 -n 1000 --incr 50 --chunk 4 --profile auto
+
+v2 auto) python2 ./scripts/benchmark.py --im cpu+naive cpu+optim cpu+simd cpu+omp gpu+ocl hetero --arch jetson --min 500 -n 1000 --incr 50 --chunk 8 --profile auto
+
+v3 auto) python2 ./scripts/benchmark.py --im cpu+naive cpu+optim cpu+simd cpu+omp gpu+ocl hetero --arch jetson --min 500 -n 1000 --incr 50 --chunk 16 --profile auto
+
+v4 auto) python2 ./scripts/benchmark.py --im cpu+naive cpu+optim cpu+simd cpu+omp gpu+ocl hetero --arch jetson --min 500 -n 1000 --incr 50 --chunk 32 --profile auto
+
+v static) python2 ./scripts/benchmark.py --im cpu+naive cpu+optim cpu+simd cpu+omp gpu+ocl hetero --arch jetson --min 500 -n 1000 --incr 50 --chunk 16 --profile static
+
+v dynamic) python2 ./scripts/benchmark.py --im cpu+naive cpu+optim cpu+simd cpu+omp gpu+ocl hetero --arch jetson --min 500 -n 1000 --incr 50 --chunk 16 --profile dynamic
+
+v final) python2 ./scripts/benchmark.py --im cpu+naive cpu+optim cpu+simd cpu+omp gpu+ocl hetero --arch jetson --min 500 -n 3000 --incr 100 --chunk 16 --profile dynamic

@@ -1,0 +1,1765 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Linux - 4.9.140-tegra - aarch64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/3.27.4/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-gm6BOW"
+      binary: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-gm6BOW"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-gm6BOW'
+        
+        Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_59849/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_59849.dir/build.make CMakeFiles/cmTC_59849.dir/build
+        make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-gm6BOW'
+        Building CXX object CMakeFiles/cmTC_59849.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_59849.dir/CMakeCXXCompilerABI.cpp.o -c /opt/cmake-3.27.4/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        Target: aarch64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+        Thread model: posix
+        gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_59849.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+         /usr/lib/gcc/aarch64-linux-gnu/7/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /opt/cmake-3.27.4/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_59849.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc4m8OM3.s
+        GNU C++14 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)
+        	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/7"
+        ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/7
+         /usr/include/aarch64-linux-gnu/c++/7
+         /usr/include/c++/7/backward
+         /usr/lib/gcc/aarch64-linux-gnu/7/include
+         /usr/local/include
+         /usr/lib/gcc/aarch64-linux-gnu/7/include-fixed
+         /usr/include/aarch64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++14 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)
+        	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 267235b6617dadf512d9def64c54895c
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_59849.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+         as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_59849.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc4m8OM3.s
+        GNU assembler version 2.30 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+        COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_59849.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+        Linking CXX executable cmTC_59849
+        /opt/cmake-3.27.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59849.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_59849.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_59849 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper
+        Target: aarch64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+        Thread model: posix
+        gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 
+        COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_59849' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+         /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuJt0y7.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_59849 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_59849.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_59849' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+        make[1]: Leaving directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-gm6BOW'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/7]
+          add: [/usr/include/aarch64-linux-gnu/c++/7]
+          add: [/usr/include/c++/7/backward]
+          add: [/usr/lib/gcc/aarch64-linux-gnu/7/include]
+          add: [/usr/local/include]
+          add: [/usr/lib/gcc/aarch64-linux-gnu/7/include-fixed]
+          add: [/usr/include/aarch64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/7] ==> [/usr/include/c++/7]
+        collapse include dir [/usr/include/aarch64-linux-gnu/c++/7] ==> [/usr/include/aarch64-linux-gnu/c++/7]
+        collapse include dir [/usr/include/c++/7/backward] ==> [/usr/include/c++/7/backward]
+        collapse include dir [/usr/lib/gcc/aarch64-linux-gnu/7/include] ==> [/usr/lib/gcc/aarch64-linux-gnu/7/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/lib/gcc/aarch64-linux-gnu/7/include-fixed] ==> [/usr/lib/gcc/aarch64-linux-gnu/7/include-fixed]
+        collapse include dir [/usr/include/aarch64-linux-gnu] ==> [/usr/include/aarch64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/7;/usr/include/aarch64-linux-gnu/c++/7;/usr/include/c++/7/backward;/usr/lib/gcc/aarch64-linux-gnu/7/include;/usr/local/include;/usr/lib/gcc/aarch64-linux-gnu/7/include-fixed;/usr/include/aarch64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-gm6BOW']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_59849/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_59849.dir/build.make CMakeFiles/cmTC_59849.dir/build]
+        ignore line: [make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-gm6BOW']
+        ignore line: [Building CXX object CMakeFiles/cmTC_59849.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_59849.dir/CMakeCXXCompilerABI.cpp.o -c /opt/cmake-3.27.4/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [Target: aarch64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_59849.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/7/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /opt/cmake-3.27.4/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_59849.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc4m8OM3.s]
+        ignore line: [GNU C++14 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/7"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/7]
+        ignore line: [ /usr/include/aarch64-linux-gnu/c++/7]
+        ignore line: [ /usr/include/c++/7/backward]
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/7/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/7/include-fixed]
+        ignore line: [ /usr/include/aarch64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++14 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 267235b6617dadf512d9def64c54895c]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_59849.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_59849.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc4m8OM3.s]
+        ignore line: [GNU assembler version 2.30 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_59849.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [Linking CXX executable cmTC_59849]
+        ignore line: [/opt/cmake-3.27.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59849.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_59849.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_59849 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper]
+        ignore line: [Target: aarch64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_59849' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+        link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuJt0y7.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_59849 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_59849.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/7/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccuJt0y7.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+          arg [-X] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-maarch64linux] ==> ignore
+          arg [--fix-cortex-a53-843419] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_59849] ==> ignore
+          arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/7] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib]
+          arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../..]
+          arg [CMakeFiles/cmTC_59849.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o] ==> [/usr/lib/aarch64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o] ==> [/usr/lib/aarch64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o] ==> [/usr/lib/aarch64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/7] ==> [/usr/lib/gcc/aarch64-linux-gnu/7]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/aarch64-linux-gnu/Scrt1.o;/usr/lib/aarch64-linux-gnu/crti.o;/usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o;/usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o;/usr/lib/aarch64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/7;/usr/lib/aarch64-linux-gnu;/usr/lib;/lib/aarch64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "cmake/Modules/FindGLFW.cmake:141 (find_package)"
+      - "CMakeLists.txt:42 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-JvJVXf"
+      binary: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-JvJVXf"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/cmake/Modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-JvJVXf'
+        
+        Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_dd0d6/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_dd0d6.dir/build.make CMakeFiles/cmTC_dd0d6.dir/build
+        make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-JvJVXf'
+        Building CXX object CMakeFiles/cmTC_dd0d6.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++11 -o CMakeFiles/cmTC_dd0d6.dir/src.cxx.o -c /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-JvJVXf/src.cxx
+        Linking CXX executable cmTC_dd0d6
+        /opt/cmake-3.27.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd0d6.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_dd0d6.dir/src.cxx.o -o cmTC_dd0d6 
+        CMakeFiles/cmTC_dd0d6.dir/src.cxx.o: In function `main':
+        src.cxx:(.text+0x48): undefined reference to `pthread_create'
+        src.cxx:(.text+0x50): undefined reference to `pthread_detach'
+        src.cxx:(.text+0x58): undefined reference to `pthread_cancel'
+        src.cxx:(.text+0x64): undefined reference to `pthread_join'
+        src.cxx:(.text+0x74): undefined reference to `pthread_atfork'
+        collect2: error: ld returned 1 exit status
+        CMakeFiles/cmTC_dd0d6.dir/build.make:98: recipe for target 'cmTC_dd0d6' failed
+        make[1]: *** [cmTC_dd0d6] Error 1
+        make[1]: Leaving directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-JvJVXf'
+        Makefile:127: recipe for target 'cmTC_dd0d6/fast' failed
+        make: *** [cmTC_dd0d6/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "cmake/Modules/FindGLFW.cmake:141 (find_package)"
+      - "CMakeLists.txt:42 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-Oqb01S"
+      binary: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-Oqb01S"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/cmake/Modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-Oqb01S'
+        
+        Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0e251/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_0e251.dir/build.make CMakeFiles/cmTC_0e251.dir/build
+        make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-Oqb01S'
+        Building CXX object CMakeFiles/cmTC_0e251.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create -std=gnu++11 -o CMakeFiles/cmTC_0e251.dir/CheckFunctionExists.cxx.o -c /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-Oqb01S/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_0e251
+        /opt/cmake-3.27.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e251.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_0e251.dir/CheckFunctionExists.cxx.o -o cmTC_0e251  -lpthreads 
+        /usr/bin/ld: cannot find -lpthreads
+        collect2: error: ld returned 1 exit status
+        CMakeFiles/cmTC_0e251.dir/build.make:98: recipe for target 'cmTC_0e251' failed
+        make[1]: *** [cmTC_0e251] Error 1
+        make[1]: Leaving directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-Oqb01S'
+        Makefile:127: recipe for target 'cmTC_0e251/fast' failed
+        make: *** [cmTC_0e251/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "cmake/Modules/FindGLFW.cmake:141 (find_package)"
+      - "CMakeLists.txt:42 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-rNsC1M"
+      binary: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-rNsC1M"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/cmake/Modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-rNsC1M'
+        
+        Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_95f40/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_95f40.dir/build.make CMakeFiles/cmTC_95f40.dir/build
+        make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-rNsC1M'
+        Building CXX object CMakeFiles/cmTC_95f40.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create -std=gnu++11 -o CMakeFiles/cmTC_95f40.dir/CheckFunctionExists.cxx.o -c /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-rNsC1M/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_95f40
+        /opt/cmake-3.27.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95f40.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_95f40.dir/CheckFunctionExists.cxx.o -o cmTC_95f40  -lpthread 
+        make[1]: Leaving directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-rNsC1M'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindX11.cmake:682 (check_library_exists)"
+      - "cmake/Modules/FindGLFW.cmake:143 (find_package)"
+      - "CMakeLists.txt:42 (find_package)"
+    checks:
+      - "Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so"
+    directories:
+      source: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-NY6paa"
+      binary: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-NY6paa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/cmake/Modules/"
+    buildResult:
+      variable: "X11_LIB_X11_SOLO"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-NY6paa'
+        
+        Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_f39b3/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_f39b3.dir/build.make CMakeFiles/cmTC_f39b3.dir/build
+        make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-NY6paa'
+        Building CXX object CMakeFiles/cmTC_f39b3.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -std=gnu++11 -o CMakeFiles/cmTC_f39b3.dir/CheckFunctionExists.cxx.o -c /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-NY6paa/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_f39b3
+        /opt/cmake-3.27.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f39b3.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_f39b3.dir/CheckFunctionExists.cxx.o -o cmTC_f39b3  /usr/lib/aarch64-linux-gnu/libX11.so /usr/lib/aarch64-linux-gnu/libXext.so 
+        make[1]: Leaving directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-NY6paa'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindX11.cmake:697 (check_function_exists)"
+      - "cmake/Modules/FindGLFW.cmake:143 (find_package)"
+      - "CMakeLists.txt:42 (find_package)"
+    checks:
+      - "Looking for gethostbyname"
+    directories:
+      source: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-RAVLS1"
+      binary: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-RAVLS1"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/cmake/Modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_GETHOSTBYNAME"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-RAVLS1'
+        
+        Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_25890/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_25890.dir/build.make CMakeFiles/cmTC_25890.dir/build
+        make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-RAVLS1'
+        Building CXX object CMakeFiles/cmTC_25890.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=gethostbyname -std=gnu++11 -o CMakeFiles/cmTC_25890.dir/CheckFunctionExists.cxx.o -c /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-RAVLS1/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_25890
+        /opt/cmake-3.27.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25890.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_25890.dir/CheckFunctionExists.cxx.o -o cmTC_25890 
+        make[1]: Leaving directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-RAVLS1'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindX11.cmake:711 (check_function_exists)"
+      - "cmake/Modules/FindGLFW.cmake:143 (find_package)"
+      - "CMakeLists.txt:42 (find_package)"
+    checks:
+      - "Looking for connect"
+    directories:
+      source: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-pUSU38"
+      binary: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-pUSU38"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/cmake/Modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_CONNECT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-pUSU38'
+        
+        Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_bba5b/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_bba5b.dir/build.make CMakeFiles/cmTC_bba5b.dir/build
+        make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-pUSU38'
+        Building CXX object CMakeFiles/cmTC_bba5b.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=connect -std=gnu++11 -o CMakeFiles/cmTC_bba5b.dir/CheckFunctionExists.cxx.o -c /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-pUSU38/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_bba5b
+        /opt/cmake-3.27.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bba5b.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_bba5b.dir/CheckFunctionExists.cxx.o -o cmTC_bba5b 
+        make[1]: Leaving directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-pUSU38'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindX11.cmake:720 (check_function_exists)"
+      - "cmake/Modules/FindGLFW.cmake:143 (find_package)"
+      - "CMakeLists.txt:42 (find_package)"
+    checks:
+      - "Looking for remove"
+    directories:
+      source: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-Ki87Pr"
+      binary: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-Ki87Pr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/cmake/Modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_REMOVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-Ki87Pr'
+        
+        Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d58ee/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_d58ee.dir/build.make CMakeFiles/cmTC_d58ee.dir/build
+        make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-Ki87Pr'
+        Building CXX object CMakeFiles/cmTC_d58ee.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=remove -std=gnu++11 -o CMakeFiles/cmTC_d58ee.dir/CheckFunctionExists.cxx.o -c /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-Ki87Pr/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_d58ee
+        /opt/cmake-3.27.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d58ee.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_d58ee.dir/CheckFunctionExists.cxx.o -o cmTC_d58ee 
+        make[1]: Leaving directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-Ki87Pr'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindX11.cmake:729 (check_function_exists)"
+      - "cmake/Modules/FindGLFW.cmake:143 (find_package)"
+      - "CMakeLists.txt:42 (find_package)"
+    checks:
+      - "Looking for shmat"
+    directories:
+      source: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-tH5isa"
+      binary: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-tH5isa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/cmake/Modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_SHMAT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-tH5isa'
+        
+        Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_df449/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_df449.dir/build.make CMakeFiles/cmTC_df449.dir/build
+        make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-tH5isa'
+        Building CXX object CMakeFiles/cmTC_df449.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=shmat -std=gnu++11 -o CMakeFiles/cmTC_df449.dir/CheckFunctionExists.cxx.o -c /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-tH5isa/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_df449
+        /opt/cmake-3.27.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df449.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_df449.dir/CheckFunctionExists.cxx.o -o cmTC_df449 
+        make[1]: Leaving directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-tH5isa'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindX11.cmake:739 (check_library_exists)"
+      - "cmake/Modules/FindGLFW.cmake:143 (find_package)"
+      - "CMakeLists.txt:42 (find_package)"
+    checks:
+      - "Looking for IceConnectionNumber in ICE"
+    directories:
+      source: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-9rXwIc"
+      binary: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-9rXwIc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/cmake/Modules/"
+    buildResult:
+      variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-9rXwIc'
+        
+        Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_749ba/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_749ba.dir/build.make CMakeFiles/cmTC_749ba.dir/build
+        make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-9rXwIc'
+        Building CXX object CMakeFiles/cmTC_749ba.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -std=gnu++11 -o CMakeFiles/cmTC_749ba.dir/CheckFunctionExists.cxx.o -c /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-9rXwIc/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_749ba
+        /opt/cmake-3.27.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_749ba.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_749ba.dir/CheckFunctionExists.cxx.o -o cmTC_749ba  -lICE 
+        make[1]: Leaving directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-9rXwIc'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:146 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-T05c1H"
+      binary: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-T05c1H"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/cmake/Modules/"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-T05c1H'
+        
+        Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_df939/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_df939.dir/build.make CMakeFiles/cmTC_df939.dir/build
+        make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-T05c1H'
+        Building CXX object CMakeFiles/cmTC_df939.dir/OpenMPTryFlag.cpp.o
+        /usr/bin/c++   -fopenmp -v -std=gnu++11 -o CMakeFiles/cmTC_df939.dir/OpenMPTryFlag.cpp.o -c /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-T05c1H/OpenMPTryFlag.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        Target: aarch64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+        Thread model: posix
+        gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++11' '-o' 'CMakeFiles/cmTC_df939.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
+         /usr/lib/gcc/aarch64-linux-gnu/7/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-T05c1H/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_df939.dir/OpenMPTryFlag.cpp.o -std=gnu++11 -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc9blZm4.s
+        GNU C++11 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)
+        	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/7"
+        ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/7
+         /usr/include/aarch64-linux-gnu/c++/7
+         /usr/include/c++/7/backward
+         /usr/lib/gcc/aarch64-linux-gnu/7/include
+         /usr/local/include
+         /usr/lib/gcc/aarch64-linux-gnu/7/include-fixed
+         /usr/include/aarch64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++11 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)
+        	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 267235b6617dadf512d9def64c54895c
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++11' '-o' 'CMakeFiles/cmTC_df939.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
+         as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_df939.dir/OpenMPTryFlag.cpp.o /tmp/cc9blZm4.s
+        GNU assembler version 2.30 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+        COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++11' '-o' 'CMakeFiles/cmTC_df939.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
+        Linking CXX executable cmTC_df939
+        /opt/cmake-3.27.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df939.dir/link.txt --verbose=1
+        /usr/bin/c++  -fopenmp -v CMakeFiles/cmTC_df939.dir/OpenMPTryFlag.cpp.o -o cmTC_df939  -v 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper
+        Target: aarch64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+        Thread model: posix
+        gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 
+        COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/
+        Reading specs from /usr/lib/gcc/aarch64-linux-gnu/7/libgomp.spec
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_df939' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
+         /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9coF39.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_df939 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_df939.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_df939' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
+        make[1]: Leaving directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-T05c1H'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindOpenMP.cmake:262 (message)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:146 (find_package)"
+    message: |
+      Parsed CXX OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-T05c1H']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_df939/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_df939.dir/build.make CMakeFiles/cmTC_df939.dir/build]
+        ignore line: [make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-T05c1H']
+        ignore line: [Building CXX object CMakeFiles/cmTC_df939.dir/OpenMPTryFlag.cpp.o]
+        ignore line: [/usr/bin/c++   -fopenmp -v -std=gnu++11 -o CMakeFiles/cmTC_df939.dir/OpenMPTryFlag.cpp.o -c /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-T05c1H/OpenMPTryFlag.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [Target: aarch64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++11' '-o' 'CMakeFiles/cmTC_df939.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/7/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-T05c1H/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_df939.dir/OpenMPTryFlag.cpp.o -std=gnu++11 -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc9blZm4.s]
+        ignore line: [GNU C++11 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/7"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/7]
+        ignore line: [ /usr/include/aarch64-linux-gnu/c++/7]
+        ignore line: [ /usr/include/c++/7/backward]
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/7/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/7/include-fixed]
+        ignore line: [ /usr/include/aarch64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++11 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 267235b6617dadf512d9def64c54895c]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++11' '-o' 'CMakeFiles/cmTC_df939.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
+        ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_df939.dir/OpenMPTryFlag.cpp.o /tmp/cc9blZm4.s]
+        ignore line: [GNU assembler version 2.30 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++11' '-o' 'CMakeFiles/cmTC_df939.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
+        ignore line: [Linking CXX executable cmTC_df939]
+        ignore line: [/opt/cmake-3.27.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df939.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -fopenmp -v CMakeFiles/cmTC_df939.dir/OpenMPTryFlag.cpp.o -o cmTC_df939  -v ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper]
+        ignore line: [Target: aarch64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+        ignore line: [Reading specs from /usr/lib/gcc/aarch64-linux-gnu/7/libgomp.spec]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_df939' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
+        link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9coF39.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_df939 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_df939.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/7/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc9coF39.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+          arg [-X] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-maarch64linux] ==> ignore
+          arg [--fix-cortex-a53-843419] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_df939] ==> ignore
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/7] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib]
+          arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../..]
+          arg [CMakeFiles/cmTC_df939.dir/OpenMPTryFlag.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgomp] ==> lib [gomp]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/7] ==> [/usr/lib/gcc/aarch64-linux-gnu/7]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
+        implicit objs: []
+        implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/7;/usr/lib/aarch64-linux-gnu;/usr/lib;/lib/aarch64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:146 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-qm1NLL"
+      binary: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-qm1NLL"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/cmake/Modules/"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-qm1NLL'
+        
+        Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_08747/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_08747.dir/build.make CMakeFiles/cmTC_08747.dir/build
+        make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-qm1NLL'
+        Building CXX object CMakeFiles/cmTC_08747.dir/OpenMPCheckVersion.cpp.o
+        /usr/bin/c++   -fopenmp -std=gnu++11 -o CMakeFiles/cmTC_08747.dir/OpenMPCheckVersion.cpp.o -c /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-qm1NLL/OpenMPCheckVersion.cpp
+        Linking CXX executable cmTC_08747
+        /opt/cmake-3.27.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08747.dir/link.txt --verbose=1
+        /usr/bin/c++  -fopenmp CMakeFiles/cmTC_08747.dir/OpenMPCheckVersion.cpp.o -o cmTC_08747 
+        make[1]: Leaving directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-qm1NLL'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake:211 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Linux - 4.9.140-tegra - aarch64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/3.27.4/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-61oCCr"
+      binary: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-61oCCr"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-61oCCr'
+        
+        Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9a413/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_9a413.dir/build.make CMakeFiles/cmTC_9a413.dir/build
+        make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-61oCCr'
+        Building CXX object CMakeFiles/cmTC_9a413.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_9a413.dir/CMakeCXXCompilerABI.cpp.o -c /opt/cmake-3.27.4/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        Target: aarch64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+        Thread model: posix
+        gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9a413.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+         /usr/lib/gcc/aarch64-linux-gnu/7/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /opt/cmake-3.27.4/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_9a413.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc24IjLA.s
+        GNU C++14 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)
+        	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/7"
+        ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/7
+         /usr/include/aarch64-linux-gnu/c++/7
+         /usr/include/c++/7/backward
+         /usr/lib/gcc/aarch64-linux-gnu/7/include
+         /usr/local/include
+         /usr/lib/gcc/aarch64-linux-gnu/7/include-fixed
+         /usr/include/aarch64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++14 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)
+        	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 267235b6617dadf512d9def64c54895c
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9a413.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+         as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_9a413.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc24IjLA.s
+        GNU assembler version 2.30 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+        COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9a413.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+        Linking CXX executable cmTC_9a413
+        /opt/cmake-3.27.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a413.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_9a413.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9a413 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper
+        Target: aarch64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+        Thread model: posix
+        gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 
+        COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9a413' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+         /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoLiVQN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_9a413 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_9a413.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9a413' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+        make[1]: Leaving directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-61oCCr'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/7]
+          add: [/usr/include/aarch64-linux-gnu/c++/7]
+          add: [/usr/include/c++/7/backward]
+          add: [/usr/lib/gcc/aarch64-linux-gnu/7/include]
+          add: [/usr/local/include]
+          add: [/usr/lib/gcc/aarch64-linux-gnu/7/include-fixed]
+          add: [/usr/include/aarch64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/7] ==> [/usr/include/c++/7]
+        collapse include dir [/usr/include/aarch64-linux-gnu/c++/7] ==> [/usr/include/aarch64-linux-gnu/c++/7]
+        collapse include dir [/usr/include/c++/7/backward] ==> [/usr/include/c++/7/backward]
+        collapse include dir [/usr/lib/gcc/aarch64-linux-gnu/7/include] ==> [/usr/lib/gcc/aarch64-linux-gnu/7/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/lib/gcc/aarch64-linux-gnu/7/include-fixed] ==> [/usr/lib/gcc/aarch64-linux-gnu/7/include-fixed]
+        collapse include dir [/usr/include/aarch64-linux-gnu] ==> [/usr/include/aarch64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/7;/usr/include/aarch64-linux-gnu/c++/7;/usr/include/c++/7/backward;/usr/lib/gcc/aarch64-linux-gnu/7/include;/usr/local/include;/usr/lib/gcc/aarch64-linux-gnu/7/include-fixed;/usr/include/aarch64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-61oCCr']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_9a413/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_9a413.dir/build.make CMakeFiles/cmTC_9a413.dir/build]
+        ignore line: [make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-61oCCr']
+        ignore line: [Building CXX object CMakeFiles/cmTC_9a413.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_9a413.dir/CMakeCXXCompilerABI.cpp.o -c /opt/cmake-3.27.4/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [Target: aarch64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9a413.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/7/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE /opt/cmake-3.27.4/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_9a413.dir/CMakeCXXCompilerABI.cpp.o -version -fstack-protector-strong -Wformat -Wformat-security -o /tmp/cc24IjLA.s]
+        ignore line: [GNU C++14 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/7"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/7]
+        ignore line: [ /usr/include/aarch64-linux-gnu/c++/7]
+        ignore line: [ /usr/include/c++/7/backward]
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/7/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/7/include-fixed]
+        ignore line: [ /usr/include/aarch64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++14 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 267235b6617dadf512d9def64c54895c]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9a413.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_9a413.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc24IjLA.s]
+        ignore line: [GNU assembler version 2.30 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9a413.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+        ignore line: [Linking CXX executable cmTC_9a413]
+        ignore line: [/opt/cmake-3.27.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a413.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_9a413.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_9a413 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper]
+        ignore line: [Target: aarch64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9a413' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+        link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccoLiVQN.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_9a413 /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_9a413.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/7/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccoLiVQN.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+          arg [-X] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-maarch64linux] ==> ignore
+          arg [--fix-cortex-a53-843419] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_9a413] ==> ignore
+          arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/7] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib]
+          arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../..]
+          arg [CMakeFiles/cmTC_9a413.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o] ==> [/usr/lib/aarch64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o] ==> [/usr/lib/aarch64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o] ==> [/usr/lib/aarch64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/7] ==> [/usr/lib/gcc/aarch64-linux-gnu/7]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/aarch64-linux-gnu/Scrt1.o;/usr/lib/aarch64-linux-gnu/crti.o;/usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o;/usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o;/usr/lib/aarch64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/7;/usr/lib/aarch64-linux-gnu;/usr/lib;/lib/aarch64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "cmake/Modules/FindGLFW.cmake:141 (find_package)"
+      - "CMakeLists.txt:42 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-fDaPFv"
+      binary: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-fDaPFv"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/cmake/Modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-fDaPFv'
+        
+        Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_37f82/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_37f82.dir/build.make CMakeFiles/cmTC_37f82.dir/build
+        make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-fDaPFv'
+        Building CXX object CMakeFiles/cmTC_37f82.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++11 -o CMakeFiles/cmTC_37f82.dir/src.cxx.o -c /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-fDaPFv/src.cxx
+        Linking CXX executable cmTC_37f82
+        /opt/cmake-3.27.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37f82.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_37f82.dir/src.cxx.o -o cmTC_37f82 
+        CMakeFiles/cmTC_37f82.dir/src.cxx.o: In function `main':
+        src.cxx:(.text+0x48): undefined reference to `pthread_create'
+        src.cxx:(.text+0x50): undefined reference to `pthread_detach'
+        src.cxx:(.text+0x58): undefined reference to `pthread_cancel'
+        src.cxx:(.text+0x64): undefined reference to `pthread_join'
+        src.cxx:(.text+0x74): undefined reference to `pthread_atfork'
+        collect2: error: ld returned 1 exit status
+        CMakeFiles/cmTC_37f82.dir/build.make:98: recipe for target 'cmTC_37f82' failed
+        make[1]: *** [cmTC_37f82] Error 1
+        make[1]: Leaving directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-fDaPFv'
+        Makefile:127: recipe for target 'cmTC_37f82/fast' failed
+        make: *** [cmTC_37f82/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "cmake/Modules/FindGLFW.cmake:141 (find_package)"
+      - "CMakeLists.txt:42 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-wKsRoS"
+      binary: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-wKsRoS"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/cmake/Modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-wKsRoS'
+        
+        Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_55291/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_55291.dir/build.make CMakeFiles/cmTC_55291.dir/build
+        make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-wKsRoS'
+        Building CXX object CMakeFiles/cmTC_55291.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create -std=gnu++11 -o CMakeFiles/cmTC_55291.dir/CheckFunctionExists.cxx.o -c /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-wKsRoS/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_55291
+        /opt/cmake-3.27.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55291.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_55291.dir/CheckFunctionExists.cxx.o -o cmTC_55291  -lpthreads 
+        /usr/bin/ld: cannot find -lpthreads
+        collect2: error: ld returned 1 exit status
+        CMakeFiles/cmTC_55291.dir/build.make:98: recipe for target 'cmTC_55291' failed
+        make[1]: *** [cmTC_55291] Error 1
+        make[1]: Leaving directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-wKsRoS'
+        Makefile:127: recipe for target 'cmTC_55291/fast' failed
+        make: *** [cmTC_55291/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "cmake/Modules/FindGLFW.cmake:141 (find_package)"
+      - "CMakeLists.txt:42 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-zUtaEu"
+      binary: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-zUtaEu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/cmake/Modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-zUtaEu'
+        
+        Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_84f52/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_84f52.dir/build.make CMakeFiles/cmTC_84f52.dir/build
+        make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-zUtaEu'
+        Building CXX object CMakeFiles/cmTC_84f52.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create -std=gnu++11 -o CMakeFiles/cmTC_84f52.dir/CheckFunctionExists.cxx.o -c /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-zUtaEu/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_84f52
+        /opt/cmake-3.27.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84f52.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_84f52.dir/CheckFunctionExists.cxx.o -o cmTC_84f52  -lpthread 
+        make[1]: Leaving directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-zUtaEu'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindX11.cmake:682 (check_library_exists)"
+      - "cmake/Modules/FindGLFW.cmake:143 (find_package)"
+      - "CMakeLists.txt:42 (find_package)"
+    checks:
+      - "Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so"
+    directories:
+      source: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-70krMV"
+      binary: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-70krMV"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/cmake/Modules/"
+    buildResult:
+      variable: "X11_LIB_X11_SOLO"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-70krMV'
+        
+        Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2a4a0/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_2a4a0.dir/build.make CMakeFiles/cmTC_2a4a0.dir/build
+        make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-70krMV'
+        Building CXX object CMakeFiles/cmTC_2a4a0.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -std=gnu++11 -o CMakeFiles/cmTC_2a4a0.dir/CheckFunctionExists.cxx.o -c /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-70krMV/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_2a4a0
+        /opt/cmake-3.27.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a4a0.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_2a4a0.dir/CheckFunctionExists.cxx.o -o cmTC_2a4a0  /usr/lib/aarch64-linux-gnu/libX11.so /usr/lib/aarch64-linux-gnu/libXext.so 
+        make[1]: Leaving directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-70krMV'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindX11.cmake:697 (check_function_exists)"
+      - "cmake/Modules/FindGLFW.cmake:143 (find_package)"
+      - "CMakeLists.txt:42 (find_package)"
+    checks:
+      - "Looking for gethostbyname"
+    directories:
+      source: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-bouXbS"
+      binary: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-bouXbS"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/cmake/Modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_GETHOSTBYNAME"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-bouXbS'
+        
+        Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_b8d2c/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_b8d2c.dir/build.make CMakeFiles/cmTC_b8d2c.dir/build
+        make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-bouXbS'
+        Building CXX object CMakeFiles/cmTC_b8d2c.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=gethostbyname -std=gnu++11 -o CMakeFiles/cmTC_b8d2c.dir/CheckFunctionExists.cxx.o -c /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-bouXbS/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_b8d2c
+        /opt/cmake-3.27.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b8d2c.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_b8d2c.dir/CheckFunctionExists.cxx.o -o cmTC_b8d2c 
+        make[1]: Leaving directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-bouXbS'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindX11.cmake:711 (check_function_exists)"
+      - "cmake/Modules/FindGLFW.cmake:143 (find_package)"
+      - "CMakeLists.txt:42 (find_package)"
+    checks:
+      - "Looking for connect"
+    directories:
+      source: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-gou184"
+      binary: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-gou184"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/cmake/Modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_CONNECT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-gou184'
+        
+        Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a7f05/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_a7f05.dir/build.make CMakeFiles/cmTC_a7f05.dir/build
+        make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-gou184'
+        Building CXX object CMakeFiles/cmTC_a7f05.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=connect -std=gnu++11 -o CMakeFiles/cmTC_a7f05.dir/CheckFunctionExists.cxx.o -c /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-gou184/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_a7f05
+        /opt/cmake-3.27.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7f05.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_a7f05.dir/CheckFunctionExists.cxx.o -o cmTC_a7f05 
+        make[1]: Leaving directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-gou184'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindX11.cmake:720 (check_function_exists)"
+      - "cmake/Modules/FindGLFW.cmake:143 (find_package)"
+      - "CMakeLists.txt:42 (find_package)"
+    checks:
+      - "Looking for remove"
+    directories:
+      source: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-VuqKkP"
+      binary: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-VuqKkP"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/cmake/Modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_REMOVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-VuqKkP'
+        
+        Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_65d3e/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_65d3e.dir/build.make CMakeFiles/cmTC_65d3e.dir/build
+        make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-VuqKkP'
+        Building CXX object CMakeFiles/cmTC_65d3e.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=remove -std=gnu++11 -o CMakeFiles/cmTC_65d3e.dir/CheckFunctionExists.cxx.o -c /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-VuqKkP/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_65d3e
+        /opt/cmake-3.27.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65d3e.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_65d3e.dir/CheckFunctionExists.cxx.o -o cmTC_65d3e 
+        make[1]: Leaving directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-VuqKkP'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindX11.cmake:729 (check_function_exists)"
+      - "cmake/Modules/FindGLFW.cmake:143 (find_package)"
+      - "CMakeLists.txt:42 (find_package)"
+    checks:
+      - "Looking for shmat"
+    directories:
+      source: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-MrQIaZ"
+      binary: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-MrQIaZ"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/cmake/Modules/"
+    buildResult:
+      variable: "CMAKE_HAVE_SHMAT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-MrQIaZ'
+        
+        Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_07117/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_07117.dir/build.make CMakeFiles/cmTC_07117.dir/build
+        make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-MrQIaZ'
+        Building CXX object CMakeFiles/cmTC_07117.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=shmat -std=gnu++11 -o CMakeFiles/cmTC_07117.dir/CheckFunctionExists.cxx.o -c /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-MrQIaZ/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_07117
+        /opt/cmake-3.27.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07117.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_07117.dir/CheckFunctionExists.cxx.o -o cmTC_07117 
+        make[1]: Leaving directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-MrQIaZ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindX11.cmake:739 (check_library_exists)"
+      - "cmake/Modules/FindGLFW.cmake:143 (find_package)"
+      - "CMakeLists.txt:42 (find_package)"
+    checks:
+      - "Looking for IceConnectionNumber in ICE"
+    directories:
+      source: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-YJ9KJt"
+      binary: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-YJ9KJt"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/cmake/Modules/"
+    buildResult:
+      variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-YJ9KJt'
+        
+        Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a1b84/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_a1b84.dir/build.make CMakeFiles/cmTC_a1b84.dir/build
+        make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-YJ9KJt'
+        Building CXX object CMakeFiles/cmTC_a1b84.dir/CheckFunctionExists.cxx.o
+        /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -std=gnu++11 -o CMakeFiles/cmTC_a1b84.dir/CheckFunctionExists.cxx.o -c /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-YJ9KJt/CheckFunctionExists.cxx
+        Linking CXX executable cmTC_a1b84
+        /opt/cmake-3.27.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a1b84.dir/link.txt --verbose=1
+        /usr/bin/c++  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_a1b84.dir/CheckFunctionExists.cxx.o -o cmTC_a1b84  -lICE 
+        make[1]: Leaving directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-YJ9KJt'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:146 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-Al2TtA"
+      binary: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-Al2TtA"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/cmake/Modules/"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-Al2TtA'
+        
+        Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_471bb/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_471bb.dir/build.make CMakeFiles/cmTC_471bb.dir/build
+        make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-Al2TtA'
+        Building CXX object CMakeFiles/cmTC_471bb.dir/OpenMPTryFlag.cpp.o
+        /usr/bin/c++   -fopenmp -v -std=gnu++11 -o CMakeFiles/cmTC_471bb.dir/OpenMPTryFlag.cpp.o -c /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-Al2TtA/OpenMPTryFlag.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        Target: aarch64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+        Thread model: posix
+        gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++11' '-o' 'CMakeFiles/cmTC_471bb.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
+         /usr/lib/gcc/aarch64-linux-gnu/7/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-Al2TtA/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_471bb.dir/OpenMPTryFlag.cpp.o -std=gnu++11 -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccIfSdpi.s
+        GNU C++11 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)
+        	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/7"
+        ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/7
+         /usr/include/aarch64-linux-gnu/c++/7
+         /usr/include/c++/7/backward
+         /usr/lib/gcc/aarch64-linux-gnu/7/include
+         /usr/local/include
+         /usr/lib/gcc/aarch64-linux-gnu/7/include-fixed
+         /usr/include/aarch64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++11 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)
+        	compiled by GNU C version 7.5.0, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 267235b6617dadf512d9def64c54895c
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++11' '-o' 'CMakeFiles/cmTC_471bb.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
+         as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_471bb.dir/OpenMPTryFlag.cpp.o /tmp/ccIfSdpi.s
+        GNU assembler version 2.30 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30
+        COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++11' '-o' 'CMakeFiles/cmTC_471bb.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
+        Linking CXX executable cmTC_471bb
+        /opt/cmake-3.27.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_471bb.dir/link.txt --verbose=1
+        /usr/bin/c++  -fopenmp -v CMakeFiles/cmTC_471bb.dir/OpenMPTryFlag.cpp.o -o cmTC_471bb  -v 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper
+        Target: aarch64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu
+        Thread model: posix
+        gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) 
+        COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/
+        Reading specs from /usr/lib/gcc/aarch64-linux-gnu/7/libgomp.spec
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_471bb' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
+         /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmnAunx.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_471bb /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_471bb.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_471bb' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread'
+        make[1]: Leaving directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-Al2TtA'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindOpenMP.cmake:262 (message)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindOpenMP.cmake:483 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:146 (find_package)"
+    message: |
+      Parsed CXX OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-Al2TtA']
+        ignore line: []
+        ignore line: [Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_471bb/fast]
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_471bb.dir/build.make CMakeFiles/cmTC_471bb.dir/build]
+        ignore line: [make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-Al2TtA']
+        ignore line: [Building CXX object CMakeFiles/cmTC_471bb.dir/OpenMPTryFlag.cpp.o]
+        ignore line: [/usr/bin/c++   -fopenmp -v -std=gnu++11 -o CMakeFiles/cmTC_471bb.dir/OpenMPTryFlag.cpp.o -c /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-Al2TtA/OpenMPTryFlag.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [Target: aarch64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++11' '-o' 'CMakeFiles/cmTC_471bb.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/7/cc1plus -quiet -v -imultiarch aarch64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-Al2TtA/OpenMPTryFlag.cpp -quiet -dumpbase OpenMPTryFlag.cpp -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_471bb.dir/OpenMPTryFlag.cpp.o -std=gnu++11 -version -fopenmp -fstack-protector-strong -Wformat -Wformat-security -o /tmp/ccIfSdpi.s]
+        ignore line: [GNU C++11 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/aarch64-linux-gnu/c++/7"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/aarch64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/aarch64-linux-gnu/7/../../../../aarch64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/7]
+        ignore line: [ /usr/include/aarch64-linux-gnu/c++/7]
+        ignore line: [ /usr/include/c++/7/backward]
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/7/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/lib/gcc/aarch64-linux-gnu/7/include-fixed]
+        ignore line: [ /usr/include/aarch64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++11 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) version 7.5.0 (aarch64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 7.5.0  GMP version 6.1.2  MPFR version 4.0.1  MPC version 1.1.0  isl version isl-0.19-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 267235b6617dadf512d9def64c54895c]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++11' '-o' 'CMakeFiles/cmTC_471bb.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
+        ignore line: [ as -v -EL -mabi=lp64 -o CMakeFiles/cmTC_471bb.dir/OpenMPTryFlag.cpp.o /tmp/ccIfSdpi.s]
+        ignore line: [GNU assembler version 2.30 (aarch64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.30]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++11' '-o' 'CMakeFiles/cmTC_471bb.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
+        ignore line: [Linking CXX executable cmTC_471bb]
+        ignore line: [/opt/cmake-3.27.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_471bb.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -fopenmp -v CMakeFiles/cmTC_471bb.dir/OpenMPTryFlag.cpp.o -o cmTC_471bb  -v ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper]
+        ignore line: [Target: aarch64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu/Linaro 7.5.0-3ubuntu1~18.04' --with-bugurl=file:///usr/share/doc/gcc-7/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-7 --program-prefix=aarch64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-libquadmath --disable-libquadmath-support --enable-plugin --enable-default-pie --with-system-zlib --enable-multiarch --enable-fix-cortex-a53-843419 --disable-werror --enable-checking=release --build=aarch64-linux-gnu --host=aarch64-linux-gnu --target=aarch64-linux-gnu]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 7.5.0 (Ubuntu/Linaro 7.5.0-3ubuntu1~18.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/aarch64-linux-gnu/7/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib/:/lib/aarch64-linux-gnu/:/lib/../lib/:/usr/lib/aarch64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/aarch64-linux-gnu/7/../../../:/lib/:/usr/lib/]
+        ignore line: [Reading specs from /usr/lib/gcc/aarch64-linux-gnu/7/libgomp.spec]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_471bb' '-v' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64' '-pthread']
+        link line: [ /usr/lib/gcc/aarch64-linux-gnu/7/collect2 -plugin /usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so -plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper -plugin-opt=-fresolution=/tmp/ccmnAunx.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu --as-needed -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux --fix-cortex-a53-843419 -pie -z now -z relro -o cmTC_471bb /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/Scrt1.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crti.o /usr/lib/gcc/aarch64-linux-gnu/7/crtbeginS.o -L/usr/lib/gcc/aarch64-linux-gnu/7 -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu -L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib -L/lib/aarch64-linux-gnu -L/lib/../lib -L/usr/lib/aarch64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/aarch64-linux-gnu/7/../../.. CMakeFiles/cmTC_471bb.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/aarch64-linux-gnu/7/crtendS.o /usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/aarch64-linux-gnu/7/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/aarch64-linux-gnu/7/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/aarch64-linux-gnu/7/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccmnAunx.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+          arg [-X] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-maarch64linux] ==> ignore
+          arg [--fix-cortex-a53-843419] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_471bb] ==> ignore
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/7] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib]
+          arg [-L/lib/aarch64-linux-gnu] ==> dir [/lib/aarch64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/aarch64-linux-gnu] ==> dir [/usr/lib/aarch64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/aarch64-linux-gnu/7/../../..] ==> dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../..]
+          arg [CMakeFiles/cmTC_471bb.dir/OpenMPTryFlag.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgomp] ==> lib [gomp]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/7] ==> [/usr/lib/gcc/aarch64-linux-gnu/7]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../../aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/aarch64-linux-gnu] ==> [/lib/aarch64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/aarch64-linux-gnu] ==> [/usr/lib/aarch64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/aarch64-linux-gnu/7/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
+        implicit objs: []
+        implicit dirs: [/usr/lib/gcc/aarch64-linux-gnu/7;/usr/lib/aarch64-linux-gnu;/usr/lib;/lib/aarch64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindOpenMP.cmake:419 (try_compile)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindOpenMP.cmake:557 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:146 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-nJnOsf"
+      binary: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-nJnOsf"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/cmake/Modules/"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-nJnOsf'
+        
+        Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_0288e/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_0288e.dir/build.make CMakeFiles/cmTC_0288e.dir/build
+        make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-nJnOsf'
+        Building CXX object CMakeFiles/cmTC_0288e.dir/OpenMPCheckVersion.cpp.o
+        /usr/bin/c++   -fopenmp -std=gnu++11 -o CMakeFiles/cmTC_0288e.dir/OpenMPCheckVersion.cpp.o -c /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-nJnOsf/OpenMPCheckVersion.cpp
+        Linking CXX executable cmTC_0288e
+        /opt/cmake-3.27.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0288e.dir/link.txt --verbose=1
+        /usr/bin/c++  -fopenmp CMakeFiles/cmTC_0288e.dir/OpenMPCheckVersion.cpp.o -o cmTC_0288e 
+        make[1]: Leaving directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-nJnOsf'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CheckSymbolExists.cmake:70 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindOpenCL.cmake:59 (CHECK_SYMBOL_EXISTS)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindOpenCL.cmake:100 (_FIND_OPENCL_VERSION)"
+      - "CMakeLists.txt:156 (find_package)"
+    checks:
+      - "Looking for CL_VERSION_3_0"
+    directories:
+      source: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-T3L6YD"
+      binary: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-T3L6YD"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/cmake/Modules/"
+    buildResult:
+      variable: "OPENCL_VERSION_3_0"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-T3L6YD'
+        
+        Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_2d369/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_2d369.dir/build.make CMakeFiles/cmTC_2d369.dir/build
+        make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-T3L6YD'
+        Building CXX object CMakeFiles/cmTC_2d369.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=gnu++11 -o CMakeFiles/cmTC_2d369.dir/CheckSymbolExists.cxx.o -c /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-T3L6YD/CheckSymbolExists.cxx
+        /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-T3L6YD/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+        /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-T3L6YD/CheckSymbolExists.cxx:8:19: error: ‘CL_VERSION_3_0’ was not declared in this scope
+           return ((int*)(&CL_VERSION_3_0))[argc];
+                           ^~~~~~~~~~~~~~
+        /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-T3L6YD/CheckSymbolExists.cxx:8:19: note: suggested alternative: ‘CL_VERSION_1_0’
+           return ((int*)(&CL_VERSION_3_0))[argc];
+                           ^~~~~~~~~~~~~~
+                           CL_VERSION_1_0
+        CMakeFiles/cmTC_2d369.dir/build.make:77: recipe for target 'CMakeFiles/cmTC_2d369.dir/CheckSymbolExists.cxx.o' failed
+        make[1]: *** [CMakeFiles/cmTC_2d369.dir/CheckSymbolExists.cxx.o] Error 1
+        make[1]: Leaving directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-T3L6YD'
+        Makefile:127: recipe for target 'cmTC_2d369/fast' failed
+        make: *** [cmTC_2d369/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/CheckSymbolExists.cmake:70 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindOpenCL.cmake:59 (CHECK_SYMBOL_EXISTS)"
+      - "/opt/cmake-3.27.4/share/cmake-3.27/Modules/FindOpenCL.cmake:100 (_FIND_OPENCL_VERSION)"
+      - "CMakeLists.txt:156 (find_package)"
+    checks:
+      - "Looking for CL_VERSION_2_2"
+    directories:
+      source: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-qRrtAu"
+      binary: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-qRrtAu"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/cmake/Modules/"
+    buildResult:
+      variable: "OPENCL_VERSION_2_2"
+      cached: true
+      stdout: |
+        Change Dir: '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-qRrtAu'
+        
+        Run Build Command(s): /opt/cmake-3.27.4/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d022b/fast
+        /usr/bin/make  -f CMakeFiles/cmTC_d022b.dir/build.make CMakeFiles/cmTC_d022b.dir/build
+        make[1]: Entering directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-qRrtAu'
+        Building CXX object CMakeFiles/cmTC_d022b.dir/CheckSymbolExists.cxx.o
+        /usr/bin/c++   -std=gnu++11 -o CMakeFiles/cmTC_d022b.dir/CheckSymbolExists.cxx.o -c /home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-qRrtAu/CheckSymbolExists.cxx
+        Linking CXX executable cmTC_d022b
+        /opt/cmake-3.27.4/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d022b.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_d022b.dir/CheckSymbolExists.cxx.o -o cmTC_d022b 
+        make[1]: Leaving directory '/home/sesi/Documents/progpar/project/Move-U-r-Body/murb-se/src/CMakeFiles/CMakeScratch/TryCompile-qRrtAu'
+        
+      exitCode: 0
+...
