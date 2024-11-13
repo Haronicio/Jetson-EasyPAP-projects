@@ -1,0 +1,54 @@
+ALBISSON Damien
+DAUVET-DIAKHATE Haron
+
+1.1 :
+
+Denver (single) = (7*2) * 2.04 * 2
+    = 57.12 Gflop/s
+
+Denver (double) = (3*2) * 2.04 * 2
+    = 24. Gflop/s
+
+Cortex (single) = (8*2) * 2.04 * 4
+    = 130.56 Gflop/s
+
+Cortex (double) = (4*2) * 2.04 * 4
+    = 65.28 Gflop/s
+
+1.2 : 
+
+command example = taskset -c 0 ./bin/bandwidth -M 2GiB -C > csv_files/cortex.csv
+../plot.py csv_files/cortex.csv -o png_files/cortex1core.png --L1 48000 --L2 2048000
+
+Denver cache = L1d : 64 KB, L1i = 128 KB, L2 = 2048 KB
+Cortex cache = L1d : 32 KB, L1i = 48 KB, L2 = 2048 KB
+
+Cortex (1 core) :
+0 B - 32 KB : 30 GB/s (L1)
+32 KB - 2048 KB : 21 GB/s (L2)
+2MB - 1GB(and more) : 7.5 GB/s
+
+Denver (1 core) :
+0 B - 64 KB : 55 GB/s (L1)
+64 KB - 2048 KB : 28 GB/s (L2)
+2048 KB - 1GB(and more) : 10 GB/s
+
+1.3 :
+
+Cortex (4 cores) :
+0 B - 128 KB : 110 GB/s (L1)
+128 KB - 2048 KB : 40 GB/s (L2)
+2048 KB - 1GB(and more) : 10 GB/s
+
+Denver (2 cores) :
+0 B - 256 KB : 90 GB/s (L1)
+128 KB - 2048 KB : 45 GB/s (L2)
+2048 KB - 1GB(and more) : 12 GB/s
+
+1.4 :
+
+all core (6) :
+0 B - 256 KB : 170 GB/s (L1)
+256 KB - 5092 KB : 60 GB/s (L2)
+5092 KB - 1GB(and more) : 20 GB/s
+
